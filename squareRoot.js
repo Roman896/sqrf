@@ -1,10 +1,9 @@
 function findsquareRoot() {
 
-var theNumber=(prompt(""));
+var theNumber=(prompt("enter in a number"));
 
 var sqrrt = theNumber*theNumber;
-sqrrt=document.getElementById("demo")
-
+document.getElementById("demo").innerHTML = sqrrt;
 
 console.log(6+theNumber*theNumber);
 }
